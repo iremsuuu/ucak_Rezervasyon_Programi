@@ -10,8 +10,8 @@ namespace ucak_Rezervasyon_Programı
     {
         public string ucak { get; set; }
         public string lokasyon { get; set; }
-        public int tarih { get ; set; }
-        public int saat { get; set; }
+        public int tarih;
+        public int saat;
 
     }
 }
